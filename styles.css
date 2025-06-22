@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.menu {
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(24, 1, 43);
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(82, 0, 136);
+}
+.conteudo-p1, .conteudo-p2 {
+    flex: 1;
+}
+
+.projetos {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(24, 1, 43);
+}
+
+.conteudo-projetos{
+    height: 90vh;
+    width: 100vw;
+}
+
+.projetos-titulo h1 {
+    cursor:default;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.rodape{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(14, 0, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape p {
+    font-size: 0.8rem;
+    color: white;
+    cursor:default;
+}
