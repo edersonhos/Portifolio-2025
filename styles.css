@@ -23,13 +23,13 @@
 }
 
 .projetos {
-    height: 100vh;
+    height: 450px;
     width: 100vw;
     background-color: rgb(24, 1, 43);
 }
 
 .conteudo-projetos{
-    height: 90vh;
+    height: 350px;
     width: 100vw;
 }
 
@@ -40,8 +40,21 @@
     color: white;
 }
 
+.projetos-iten {
+    display: flex;
+}
+
+.item-projeto-grid {
+    flex: 1;
+    margin: 40px;
+    border: 1px solid black;
+    height: 25vh;
+    background-color: white;
+    border-radius: 10px;
+}
+
 .rodape{
-    height: 10vh;
+    height:100px;
     width: 100vw;
     background-color: rgb(14, 0, 22);
     display: flex;
