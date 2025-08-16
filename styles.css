@@ -3,6 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
     overflow-x: hidden;
+    font-family: Helvetica, sans-serif;
 }
 
 .menu {
@@ -16,20 +17,38 @@
     flex-direction: row;
     height: 90vh;
     width: 100vw;
-    background-color: rgb(82, 0, 136);
 }
 .conteudo-p1, .conteudo-p2 {
     flex: 1;
 }
 
+.conteudo-p1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(141, 138, 156);
+}
+
+.conteudo-p2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(141, 138, 156);
+    padding: 5vw;
+}
+
+.habilidade p{
+    font-weight: bold;
+}
+
 .projetos {
-    height: 450px;
+    padding-top: 10px;;
     width: 100vw;
     background-color: rgb(24, 1, 43);
 }
 
 .conteudo-projetos{
-    height: 350px;
     width: 100vw;
 }
 
@@ -51,6 +70,7 @@
     height: 25vh;
     background-color: white;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .rodape{
